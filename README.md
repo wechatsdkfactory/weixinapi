@@ -1,5 +1,8 @@
 # 个人微信号二次开发sdk协议,微信个人号开发API接口
-备注：于2019年6月12日从github仓库https://github.com/wuliaokankan/WeChat.CRM.SDK/移植到本仓库
+
+备注：微信sdk项目于2019年6月12日从github仓库https://github.com/wuliaokankan/WeChat.CRM.SDK/
+移植到本仓库
+
 微信SDK程序概要说明
 ---------------------------------
 本微信开发sdk非微信ipad协议、非mac协议,非安卓协议，api可实现微信99%功能；      
