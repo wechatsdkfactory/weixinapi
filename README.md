@@ -1,4 +1,5 @@
 # 个人微信号二次开发sdk协议,微信个人号开发API接口
+备注：于2019年6月12日从github仓库https://github.com/wuliaokankan/WeChat.CRM.SDK/移植到本仓库
 微信SDK程序概要说明
 ---------------------------------
 本微信开发sdk非微信ipad协议、非mac协议,非安卓协议，api可实现微信99%功能；      
@@ -360,7 +361,7 @@ ChatRoomMembersNotice = 2034;
 ![Image text](https://images.gitee.com/uploads/images/2019/0612/172635_8d888170_4908820.png)
 ![Image text](https://images.gitee.com/uploads/images/2019/0612/172634_f13a2ea9_4908820.png)
 ![Image text](https://images.gitee.com/uploads/images/2019/0612/172639_f0db1ae9_4908820.png)
-![Image text](http://www.yunlauncher.com/kf/5.png)
+![Image text](https://images.gitee.com/uploads/images/2019/0612/182442_d06a94ca_4908820.png)
 
 微信sdk方案可实现功能说明
 --------------
@@ -414,3 +415,9 @@ ChatRoomMembersNotice = 2034;
 报表，支持查看团队或个人统计数据
 一键统计重复的好友、群分别隶属于哪些微信客服号，有效解决企业客户的判定问题及群梳理
 咨询请加微信tangjinjinwx
+
+微信SDK仓库变更记录
+-----------------------------------------------
+最早仓库：https://github.com/tangjinjinwx/Public.WeChat.CRM.SDK 拥有近500自然star
+github搬迁仓库：https://github.com/wuliaokankan/WeChat.CRM.SDK/  拥有60多自然star
+最新gitee仓库：https://gitee.com/tangjinjinwx/Public.WeChat.CRM.SDK   
