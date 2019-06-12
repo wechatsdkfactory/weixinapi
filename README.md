@@ -1,7 +1,7 @@
 # 个人微信号二次开发sdk协议,微信个人号开发API接口
 微信SDK程序概要说明
 ---------------------------------
-非微信ipad协议、非mac协议,非安卓协议，api可实现微信99%功能；      
+本微信开发sdk非微信ipad协议、非mac协议,非安卓协议，api可实现微信99%功能；      
 无需扫码登录、可收发朋友圈、查看朋友圈、朋友圈互动点赞、评论、      
 好友列表、微信消息收发、发文本消息、图片消息、名片消息、动图表情、发文件、删好友      
 添加好友、微信转账、微信红包接收、分享小程序、分享名片、加通讯录好友、微信收藏、微信标签等！      
@@ -23,11 +23,34 @@ SDK接入简单、兼容性好、拓展性强，始终支持微信官方最新�
 
 微信sdk技术方案特色
 --------------------
-1、无需扫码登陆微信：区别传统的网页协议版微信和ipad协议版微信，我们的解决方案是不需要扫码登陆微信的，更快捷，更高效！
+1、无需扫码登陆微信：区别传统的网页协议版微信和ipad协议版微信，我们的解决方案是不需要扫码登陆微信的，更快捷，更高效,更安全！
 
-2、提供二次开发SDK：我们为合作伙伴提供完整的二次开发sdk，使用sdk可研发各类基于微信的营销系统及软件等！
+2、超强二次开发SDK：我们为合作伙伴提供完整全面的二次开发sdk，使用sdk可研发各类基于微信的营销系统及软件等！
 
-3、2W多设备稳定商用：目前已有多家合作伙伴与我们签约合作，累计出货20000多台设备，所有设备稳定！
+3、提供二次开发基础源码：我们为合作伙伴提供sdk的服务端调用源码及pc端演示demo源码，方便二次开发！
+
+4、2W多设备稳定商用：目前已有多家合作伙伴与我们签约合作，累计出货20000多台设备，所有设备稳定！
+
+微信SDK通信交互及协议说明
+--------------------------
+1、手机端SDK与服务端通信采用普通socket(任何语言都通用，服务端重写更方便)
+
+2、pc端与服务端通信可采用普通socket，也可以使用websocket，具体看公司开发能力！
+
+3、通信协议采用protobuf 3.0协议数据序列化后的数据内容（更高效更安全）
+
+微信SDK安装使用注意事项
+----------------------------
+1、需要真实手机，安卓5.0以上操作系统
+
+2、手机需要root,微信sdk需要root权限
+
+3、自主搭建服务端时，请自主进入设置界面修改服务端ip及端口
+
+
+微信SDK二次开发结构参考图
+----------------------------
+![Image text](https://images.gitee.com/uploads/images/2019/0612/172934_e017641f_4908820.jpeg)
 
 
 微信SDK接口API全部协议定义
@@ -268,8 +291,35 @@ RequestTalkContentTask = 1218;
 23、返回聊天消息的原始内容
 RequestTalkContentTaskResultNotice = 1219;
 
-24、转发消息内容
+24、转发消息内容 
 ForwardMessageByContentTask = 1220;
+
+25、群主通过入群申请 
+ChatRoomInviteApproveTask = 1221;
+
+26、微信账号登出 
+WechatLogoutTask = 1222; 
+
+27、手机操作指令 
+PhoneActionTask = 1223; // 手机操作指令
+
+28、设置联系人标签 
+ContactLabelTask = 1224; // 设置联系人标签
+
+29、删除联系人标签 
+ContactLabelDeleteTask = 1225; // 删除联系人标签
+
+30、语音消息转文字 
+VoiceTransTextTask = 1226; // 语音消息转文字
+
+31、查找微信联系人 
+FindContactTask = 1227; // 查找微信联系人
+
+32、查找微信联系人结果 
+FindContactTaskResult = 1228; // 查找微信联系人结果
+
+33、同意加入群聊 
+AgreeJoinChatRoomTask = 1229; // 同意加入群聊
 
 6、手机端主动发出的交互类消息
 
@@ -300,17 +350,17 @@ HistoryMsgPushNotice = 2033;
 9、群成员（陌生人）信息
 ChatRoomMembersNotice = 2034;
 
-目前【聚客通】【有客来】等等等scrm都是基于这个API二次开发的。
+目前【聚客通】等几十家公司产品都是基于这个API二次开发的。
 --------------------
 咨询请加微信tangjinjinwx
 
 以下为PC端演示demo,源码已上传，二次开发有疑问请加问下
 --------------------
-![Image text](https://img-blog.csdnimg.cn/20190308153539202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEyNjk3NjI=,size_16,color_FFFFFF,t_70)
-![Image text](https://img-blog.csdnimg.cn/20190308152747253.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEyNjk3NjI=,size_16,color_FFFFFF,t_70)
-![Image text](https://img-blog.csdnimg.cn/20190308152834149.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEyNjk3NjI=,size_16,color_FFFFFF,t_70)
-![Image text](https://img-blog.csdnimg.cn/2019030815285169.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEyNjk3NjI=,size_16,color_FFFFFF,t_70)
-![Image text](https://img-blog.csdnimg.cn/20190308152903443.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEyNjk3NjI=,size_16,color_FFFFFF,t_70)
+![Image text](https://images.gitee.com/uploads/images/2019/0612/172512_fcb28bda_4908820.png)
+![Image text](https://images.gitee.com/uploads/images/2019/0612/172635_8d888170_4908820.png)
+![Image text](https://images.gitee.com/uploads/images/2019/0612/172634_f13a2ea9_4908820.png)
+![Image text](https://images.gitee.com/uploads/images/2019/0612/172639_f0db1ae9_4908820.png)
+![Image text](http://www.yunlauncher.com/kf/5.png)
 
 微信sdk方案可实现功能说明
 --------------
@@ -354,7 +404,6 @@ ChatRoomMembersNotice = 2034;
 
 根据好友情况，及时打标签，自定义标签，直接同步微信标签；智能标签化数据化管理，千人千面精准化营销
 
-
 10、群管理
 
 通过进群自动打招呼、发广告踢人、群公告、群加好友、建群等一系列群功能，大幅度提升群管理和营销效果
@@ -364,3 +413,4 @@ ChatRoomMembersNotice = 2034;
 微信也能制定KPI，评估每个客服的工作量，合理分配，提高工作效率；员工微信工作量实时统计，可视化
 报表，支持查看团队或个人统计数据
 一键统计重复的好友、群分别隶属于哪些微信客服号，有效解决企业客户的判定问题及群梳理
+咨询请加微信tangjinjinwx
