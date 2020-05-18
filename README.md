@@ -373,7 +373,7 @@ HistoryMsgPushNotice = 2033;
 9、群成员（陌生人）信息
 ChatRoomMembersNotice = 2034;
 
-目前【聚客通】等几十家公司产品都是基于这个API二次开发的。
+目前市面上很多SCRM产品都是基于这个API二次开发的。
 --------------------
 
 咨询请加微信happybabby110
