@@ -378,13 +378,13 @@ ChatRoomMembersNotice = 2034;
 
 咨询请加微信happybabby110
 
-以下为PC端演示demo,源码已上传，二次开发有疑问请加问下
+以下为PC端演示demo,老版本源码已上传，二次开发有疑问请加微信咨询
 --------------------
-![Image text](https://images.gitee.com/uploads/images/2019/0612/172512_fcb28bda_4908820.png)
-![Image text](https://images.gitee.com/uploads/images/2019/0612/172635_8d888170_4908820.png)
-![Image text](https://images.gitee.com/uploads/images/2019/0612/172634_f13a2ea9_4908820.png)
-![Image text](https://images.gitee.com/uploads/images/2019/0612/172639_f0db1ae9_4908820.png)
-![Image text](https://images.gitee.com/uploads/images/2019/0612/182442_d06a94ca_4908820.png)
+![微信SCRM](https://images.gitee.com/uploads/images/2020/0518/094605_6eb2f820_4908820.jpeg "A08F45F5D0316560CC2664D745E1208B.jpg")
+![微信SCRM](https://images.gitee.com/uploads/images/2020/0518/094637_a665f135_4908820.jpeg "BE60308DFDADE1F7D45786E15B971A8B.jpg")
+![微信聚合聊天](https://images.gitee.com/uploads/images/2020/0518/094653_2b62b411_4908820.jpeg "98AA5B57B0943F6D682711CD8FCDB0C4.jpg")
+![微信聚合聊天](https://images.gitee.com/uploads/images/2020/0518/094707_782eaaf3_4908820.jpeg "DBC3CC67CCBEE29176E6BDEEAF3BAF8B.jpg")
+![微信聚合聊天](https://images.gitee.com/uploads/images/2020/0518/094720_c578fc5e_4908820.jpeg "E831DF113ACCD550806E0F0EF9931BA2.jpg")
 
 新版本的演示demo请参考http://www.wlkankan.cn/cate41/183.html
 
