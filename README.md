@@ -13,7 +13,7 @@
 微信建群、微信拉人进群、踢群成员、邀请群成员、退群、改群名称、群列表、发布群公告、多群消息同步等      
 微信公众号阅读、关注与取消关注公众号、公众号列表信息、清理微信空间...功能太多懒得写了！！！
 
-咨询请加微信tangjinjinwx
+咨询请加微信happybabby110
 
 微信sdk可开发软件说明
 ----------------------------
@@ -23,7 +23,7 @@
 SDK接入简单、兼容性好、拓展性强，始终支持微信官方最新版本，并定时维护升级，可按需定制！
 功能参考接口参考http://www.yunlauncher.com/Blog/articles/119.html
 
-咨询请加微信tangjinjinwx
+咨询请加微信happybabby110
 
 微信sdk技术方案特色
 --------------------
@@ -65,8 +65,11 @@ SDK接入简单、兼容性好、拓展性强，始终支持微信官方最新�
 
 群管理系统；
 
+手机监控，工作手机；
+
 其他可能用到的业务软件系统…
 
+咨询请加微信happybabby110
 
 
 微信SDK二次开发结构参考图
@@ -372,7 +375,8 @@ ChatRoomMembersNotice = 2034;
 
 目前【聚客通】等几十家公司产品都是基于这个API二次开发的。
 --------------------
-咨询请加微信tangjinjinwx
+
+咨询请加微信happybabby110
 
 以下为PC端演示demo,源码已上传，二次开发有疑问请加问下
 --------------------
@@ -435,7 +439,8 @@ ChatRoomMembersNotice = 2034;
 微信也能制定KPI，评估每个客服的工作量，合理分配，提高工作效率；员工微信工作量实时统计，可视化
 报表，支持查看团队或个人统计数据
 一键统计重复的好友、群分别隶属于哪些微信客服号，有效解决企业客户的判定问题及群梳理
-咨询请加微信tangjinjinwx
+
+咨询请加微信happybabby110
 
 QQ群：787065908
 <p>QQ群：<a href="//shang.qq.com/wpa/qunwpa?idkey=32b5ffa731c3dc853dd58900d3381aa13209ee03ff64b4e962560c5ccd3c801d" rel="nofollow">787065908</a></p>
@@ -443,5 +448,5 @@ QQ群：787065908
 微信SDK仓库变更记录
 -----------------------------------------------
 最早仓库：https://github.com/tangjinjinwx/Public.WeChat.CRM.SDK 拥有近500自然star
-github搬迁仓库：https://github.com/wuliaokankan/WeChat.CRM.SDK/  拥有360多自然star
+github搬迁仓库：https://github.com/wuliaokankan/WeChat.CRM.SDK/  拥有400多自然star
 最新gitee仓库：https://gitee.com/tangjinjinwx/Public.WeChat.CRM.SDK   
