@@ -1,7 +1,5 @@
-# 个人微信号二次开发sdk协议,微信个人号开发API接口
+# 微信api接口，微信开发sdk,个人微信号二次开发sdk协议,微信开发API接口
 
-备注：微信sdk项目于2019年6月12日从github仓库https://github.com/wuliaokankan/WeChat.CRM.SDK/
-移植到本仓库
 
 微信SDK程序概要说明
 ---------------------------------
@@ -386,7 +384,7 @@ ChatRoomMembersNotice = 2034;
 ![微信聚合聊天](https://images.gitee.com/uploads/images/2020/0518/094707_782eaaf3_4908820.jpeg "DBC3CC67CCBEE29176E6BDEEAF3BAF8B.jpg")
 ![微信聚合聊天](https://images.gitee.com/uploads/images/2020/0518/094720_c578fc5e_4908820.jpeg "E831DF113ACCD550806E0F0EF9931BA2.jpg")
 
-新版本的演示demo请参考http://www.wlkankan.cn/cate41/183.html
+新版本的演示demo请参考http://www.wlkankan.cn/cate41/243.html
 
 微信sdk方案可实现功能说明
 --------------
@@ -449,4 +447,4 @@ QQ群：787065908
 -----------------------------------------------
 最早仓库：https://github.com/tangjinjinwx/Public.WeChat.CRM.SDK 拥有近500自然star
 github搬迁仓库：https://github.com/wuliaokankan/WeChat.CRM.SDK/  拥有400多自然star
-最新gitee仓库：https://gitee.com/tangjinjinwx/Public.WeChat.CRM.SDK   
+gitee仓库：https://gitee.com/tangjinjinwx/Public.WeChat.CRM.SDK   
